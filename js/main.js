@@ -1,6 +1,4 @@
-function random_number (min, max, num_of_decimals ){
-
-    return +((Math.random() * (max - min + 1)) + min).toFixed(num_of_decimals);
+function randomNumber (min, max, numOfDecimals ){
+    return +((Math.random() * (max - min + 1)) + min).toFixed(numOfDecimals);
 }
-
-random_number();
+randomNumber();
